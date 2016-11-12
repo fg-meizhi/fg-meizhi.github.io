@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.mei6.site/"/>
-  <updated>2016-11-12T14:50:54.000Z</updated>
+  <updated>2016-11-12T15:11:20.000Z</updated>
   <id>http://www.mei6.site/</id>
   
   <author>
@@ -16,46 +16,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Code Test</title>
-    <link href="http://www.mei6.site/2016/11/12/code-test/"/>
-    <id>http://www.mei6.site/2016/11/12/code-test/</id>
-    <published>2016-11-12T14:49:28.000Z</published>
-    <updated>2016-11-12T14:50:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<!-- abstract -->
-<a id="more"></a>
-<!-- 开始正文 -->
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">public static <span class="keyword">List</span>&lt;StatusReport&gt; getStatusReport(long enterpriseId) &#123;</div><div class="line">        <span class="keyword">List</span>&lt;StatusReport&gt; _Reports = new ArrayList&lt;&gt;();</div><div class="line"></div><div class="line">        String responseString = HttpClientUtil.getInstance().doGet(getBaseUrl(enterpriseId) + generateReportAction, getEnterpriseParams(enterpriseId));</div><div class="line">        responseString = responseString.<span class="built_in">trim</span>();</div><div class="line">        <span class="keyword">if</span> (null != responseString &amp;&amp; !<span class="string">""</span>.equals(responseString)) &#123;</div><div class="line">            <span class="keyword">List</span>&lt;Element&gt; elements = xmlDoc(responseString);</div><div class="line">            <span class="keyword">for</span> (Element element : elements) &#123;</div><div class="line">                <span class="keyword">if</span> (null != element) &#123;</div><div class="line">                    logger.debug(<span class="string">"【SDKHttpClient】REPORT-&gt;"</span> + element.elementText(<span class="string">"seqid"</span>));</div><div class="line">                    StatusReport <span class="keyword">report</span> = new StatusReport();</div><div class="line">                    <span class="keyword">report</span>.setMobile(element.elementText(<span class="string">"srctermid"</span>));</div><div class="line">                    <span class="keyword">report</span>.setErrorCode(element.elementText(<span class="string">"state"</span>));</div><div class="line">                    <span class="keyword">report</span>.setSeqID(Long.parseLong(element.elementText(<span class="string">"seqid"</span>)));</div><div class="line">                    <span class="keyword">report</span>.setReceiveDate(element.elementText(<span class="string">"receiveDate"</span>));</div><div class="line">                    <span class="keyword">report</span>.setSubmitDate(element.elementText(<span class="string">"submitDate"</span>));</div><div class="line">                    <span class="keyword">report</span>.setServiceCodeAdd(element.elementText(<span class="string">"addSerialRev"</span>));</div><div class="line">                    _Reports.add(<span class="keyword">report</span>);</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">return</span> _Reports;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;!-- abstract --&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>PacktPub.Getting.Started.with.Google.Guava</title>
     <link href="http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/"/>
     <id>http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</id>
     <published>2016-11-12T13:32:26.000Z</published>
-    <updated>2016-11-12T13:52:50.000Z</updated>
+    <updated>2016-11-12T15:11:20.000Z</updated>
     
     <content type="html"><![CDATA[<!-- abstract -->
-<p>Google 的java库，抽空看一下</p>
+<p><img src="http://oga9qt1do.bkt.clouddn.com/14789575610186.jpg" alt="PacktPub.Getting.Started.with.Google.Guava">
+Google 的java库，抽空看一下</p>
 <a id="more"></a>
 <!-- 开始正文 -->
 <p>Guava</p>
-<p><img src="http://oga9qt1do.bkt.clouddn.com/14789575610186.jpg" alt=""></p>
+<p><img src="http://oga9qt1do.bkt.clouddn.com/14789575610186.jpg" alt="PacktPub.Getting.Started.with.Google.Guava"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;!-- abstract --&gt;
-&lt;p&gt;Google 的java库，抽空看一下&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oga9qt1do.bkt.clouddn.com/14789575610186.jpg&quot; alt=&quot;PacktPub.Getting.Started.with.Google.Guava&quot;&gt;
+Google 的java库，抽空看一下&lt;/p&gt;
     
     </summary>
     
