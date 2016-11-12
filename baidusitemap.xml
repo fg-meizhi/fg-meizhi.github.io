@@ -4,8 +4,8 @@
 
     
   <url>
-    <loc>http://mei6.com/2016/11/12/hello-there/</loc>
-    <lastmod>2016-11-12T11:30:55.000Z</lastmod>
+    <loc>http://mei6.site/2016/11/12/hello-there/</loc>
+    <lastmod>2016-11-12T14:41:13.000Z</lastmod>
     <data>
         <display>
         <title>有了没事儿瞎咧咧的地方</title>
@@ -14,7 +14,27 @@
          
            
              
-              <breadCrumb title="瞎咧咧" url="http://mei6.com/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
+              <breadCrumb title="瞎咧咧" url="http://mei6.site/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</loc>
+    <lastmod>2016-11-12T13:52:50.000Z</lastmod>
+    <data>
+        <display>
+        <title>PacktPub.Getting.Started.with.Google.Guava</title>
+        <pubTime>2016-11-12T13:32:26.000Z</pubTime>
+        
+        <tag>读书</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
           
         </display>
     </data>

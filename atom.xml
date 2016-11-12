@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://mei6.com/"/>
-  <updated>2016-11-12T11:30:55.000Z</updated>
-  <id>http://mei6.com/</id>
+  <link href="http://mei6.site/"/>
+  <updated>2016-11-12T13:52:50.000Z</updated>
+  <id>http://mei6.site/</id>
   
   <author>
     <name>没溜儿</name>
@@ -16,11 +16,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PacktPub.Getting.Started.with.Google.Guava</title>
+    <link href="http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/"/>
+    <id>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</id>
+    <published>2016-11-12T13:32:26.000Z</published>
+    <updated>2016-11-12T13:52:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<!-- abstract -->
+<p>Google 的java库，抽空看一下</p>
+<a id="more"></a>
+<!-- 开始正文 -->
+<p>Guava</p>
+<p><img src="http://oga9qt1do.bkt.clouddn.com/14789575610186.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;!-- abstract --&gt;
+&lt;p&gt;Google 的java库，抽空看一下&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>有了没事儿瞎咧咧的地方</title>
-    <link href="http://mei6.com/2016/11/12/hello-there/"/>
-    <id>http://mei6.com/2016/11/12/hello-there/</id>
+    <link href="http://mei6.site/2016/11/12/hello-there/"/>
+    <id>http://mei6.site/2016/11/12/hello-there/</id>
     <published>2016-11-12T10:51:04.000Z</published>
-    <updated>2016-11-12T11:30:55.000Z</updated>
+    <updated>2016-11-12T14:41:13.000Z</updated>
     
     <content type="html"><![CDATA[<p>一直没有养成写博客的习惯，几年前在javaeye写过一点儿东西，后来东西都是放在Evernote里面。</p>
 <p>借助几篇文章，很快的帮我搭起来这个简单的博客，感谢下面这几篇文章的作者，把他们列在这里，希望能帮助有我这样需求的人少走弯路：</p>
@@ -43,7 +72,7 @@
     
     </summary>
     
-      <category term="瞎咧咧" scheme="http://mei6.com/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
+      <category term="瞎咧咧" scheme="http://mei6.site/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
     
     
   </entry>
