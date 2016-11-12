@@ -4,15 +4,34 @@
   
     
     <entry>
+      <title><![CDATA[Test]]></title>
+      <url>http://www.mei6.site/2016/11/12/test/</url>
+      <content type="html"><![CDATA[<!-- abstract -->
+<a id="more"></a>
+<!-- 开始正文 -->
+<p>test</p>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87257256-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[PacktPub.Getting.Started.with.Google.Guava]]></title>
       <url>http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</url>
       <content type="html"><![CDATA[<!-- abstract -->
-<p><img src="http://oga9qt1do.bkt.clouddn.com/14789575610186.jpg" alt="PacktPub.Getting.Started.with.Google.Guava">
-Google 的java库，抽空看一下</p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/14789679847753.jpg" alt=""></p>
+<p>Google 的java库，抽空看一下</p>
 <a id="more"></a>
 <!-- 开始正文 -->
 <p>Guava</p>
-<p><img src="http://oga9qt1do.bkt.clouddn.com/14789575610186.jpg" alt="PacktPub.Getting.Started.with.Google.Guava"></p>
 ]]></content>
     </entry>
     
@@ -28,6 +47,7 @@ Google 的java库，抽空看一下</p>
 <li><a href="http://www.selfrebuild.net/2016/08/25/mweb-hexo-blog-config/" target="_blank" rel="external">使用 Mweb 配合 hexo 编写 github 博客</a></li>
 <li><a href="https://joilence.github.io/2016/07/14/improve-blog/" target="_blank" rel="external">Hexo 博客进阶配置与常见问题</a></li>
 <li><a href="http://codingpub.github.io/2016/04/10/%E5%AE%9A%E5%88%B6Hexo-maupassant/" target="_blank" rel="external">定制Hexo - maupassant</a></li>
+<li><a href="https://qifuguang.me/2016/08/14/%E5%A6%82%E4%BD%95%E4%B8%BA%E5%8D%9A%E5%AE%A2%E5%A2%9E%E5%8A%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/" target="_blank" rel="external">如何为博客增加打赏功能</a></li>
 </ul>
 ]]></content>
     </entry>
