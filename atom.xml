@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.mei6.site/"/>
+  <link href="http://mei6.site/"/>
   <updated>2016-11-12T15:34:34.000Z</updated>
-  <id>http://www.mei6.site/</id>
+  <id>http://mei6.site/</id>
   
   <author>
     <name>没溜儿</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Test</title>
-    <link href="http://www.mei6.site/2016/11/12/test/"/>
-    <id>http://www.mei6.site/2016/11/12/test/</id>
+    <link href="http://mei6.site/2016/11/12/test/"/>
+    <id>http://mei6.site/2016/11/12/test/</id>
     <published>2016-11-12T15:34:24.000Z</published>
     <updated>2016-11-12T15:34:34.000Z</updated>
     
@@ -49,8 +49,8 @@
   
   <entry>
     <title>PacktPub.Getting.Started.with.Google.Guava</title>
-    <link href="http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/"/>
-    <id>http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</id>
+    <link href="http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/"/>
+    <id>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</id>
     <published>2016-11-12T13:32:26.000Z</published>
     <updated>2016-11-12T16:26:41.000Z</updated>
     
@@ -70,17 +70,17 @@
     
     </summary>
     
-      <category term="读书" scheme="http://www.mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="读书" scheme="http://www.mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>有了没事儿瞎咧咧的地方</title>
-    <link href="http://www.mei6.site/2016/11/12/hello-there/"/>
-    <id>http://www.mei6.site/2016/11/12/hello-there/</id>
+    <link href="http://mei6.site/2016/11/12/hello-there/"/>
+    <id>http://mei6.site/2016/11/12/hello-there/</id>
     <published>2016-11-12T10:51:04.000Z</published>
     <updated>2016-11-12T15:45:57.000Z</updated>
     
@@ -106,7 +106,7 @@
     
     </summary>
     
-      <category term="瞎咧咧" scheme="http://www.mei6.site/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
+      <category term="瞎咧咧" scheme="http://mei6.site/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
     
     
   </entry>
