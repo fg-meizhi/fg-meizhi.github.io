@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://mei6.site/2016/11/13/guava-function/</loc>
+    <lastmod>2016-11-13T13:10:28.000Z</lastmod>
+    <data>
+        <display>
+        <title>Guava Function</title>
+        <pubTime>2016-11-13T12:21:43.000Z</pubTime>
+        
+        <tag>读书</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Guava</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</loc>
     <lastmod>2016-11-13T13:08:43.000Z</lastmod>
     <data>
@@ -154,30 +178,6 @@
         <display>
         <title>Guava Collection</title>
         <pubTime>2016-11-13T12:23:19.000Z</pubTime>
-        
-        <tag>读书</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Guava</tag>
-         
-         
-           
-             
-              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://mei6.site/2016/11/13/guava-function/</loc>
-    <lastmod>2016-11-13T12:41:02.000Z</lastmod>
-    <data>
-        <display>
-        <title>Guava Function</title>
-        <pubTime>2016-11-13T12:29:43.000Z</pubTime>
         
         <tag>读书</tag>
          

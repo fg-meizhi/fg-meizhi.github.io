@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mei6.site/2016/11/13/guava-function/</loc>
+    
+    <lastmod>2016-11-13T13:10:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</loc>
     
     <lastmod>2016-11-13T13:08:43.000Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://mei6.site/2016/11/13/guava-collection/</loc>
     
     <lastmod>2016-11-13T13:03:12.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://mei6.site/2016/11/13/guava-function/</loc>
-    
-    <lastmod>2016-11-13T12:41:02.000Z</lastmod>
     
   </url>
   
