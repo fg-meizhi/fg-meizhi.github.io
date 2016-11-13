@@ -520,7 +520,7 @@
       <url>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</url>
       <content type="html"><![CDATA[<!-- abstract -->
 <p><img src="http://ogjeb66bz.bkt.clouddn.com/14789679847753.jpg" alt=""></p>
-<p>Google 的java库，抽空看一下</p>
+<p>Google 的core java库，抽空看一下</p>
 <a id="more"></a>
 <!-- 开始正文 -->
 <p>目录</p>
@@ -535,7 +535,13 @@
 <li><a href="http://www.mei6.site/2016/11/13/guava-Files/" target="_blank" rel="external">Guava Files</a></li>
 <li><a href="http://www.mei6.site/2016/11/13/guava-Odds-Ends/" target="_blank" rel="external">Guava Odds Ends</a></li>
 </ol>
-<p>Google的Java工具包，从08年开始的项目，看看有什么对我有帮助的。</p>
+<p>Google的核心Java工具包，从08年开始的项目，看看有什么对我有帮助的。</p>
+<hr>
+<p>Guava 资料</p>
+<p><a href="https://github.com/google/guava" target="_blank" rel="external">GitHub</a>
+<a href="https://github.com/google/guava/wiki" target="_blank" rel="external">User Guide</a>
+<a href="http://www.tfnico.com/presentations/google-guava" target="_blank" rel="external">Other Help Links</a></p>
+<hr>
 <h2 id="准备工作"><a class="header-anchor" href="#准备工作"> </a>准备工作</h2>
 <p>添加Guava依赖</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- https://mvnrepository.com/artifact/com.google.guava/guava --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.google.guava<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>guava<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>14.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div></pre></td></tr></table></figure>
