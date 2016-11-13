@@ -4,56 +4,8 @@
 
     
   <url>
-    <loc>http://mei6.site/2016/11/13/guava-function/</loc>
-    <lastmod>2016-11-13T13:10:28.000Z</lastmod>
-    <data>
-        <display>
-        <title>Guava Function</title>
-        <pubTime>2016-11-13T12:21:43.000Z</pubTime>
-        
-        <tag>读书</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Guava</tag>
-         
-         
-           
-             
-              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</loc>
-    <lastmod>2016-11-13T13:08:43.000Z</lastmod>
-    <data>
-        <display>
-        <title>Getting.Started.with.Google.Guava</title>
-        <pubTime>2016-11-12T13:32:26.000Z</pubTime>
-        
-        <tag>读书</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Guava</tag>
-         
-         
-           
-             
-              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://mei6.site/2016/11/13/guava-Odds-Ends/</loc>
-    <lastmod>2016-11-13T13:06:37.000Z</lastmod>
+    <lastmod>2016-11-13T13:31:45.000Z</lastmod>
     <data>
         <display>
         <title>Guava Odds Ends</title>
@@ -77,7 +29,7 @@
     
   <url>
     <loc>http://mei6.site/2016/11/13/guava-Files/</loc>
-    <lastmod>2016-11-13T13:06:33.000Z</lastmod>
+    <lastmod>2016-11-13T13:31:35.000Z</lastmod>
     <data>
         <display>
         <title>Guava Files</title>
@@ -101,7 +53,7 @@
     
   <url>
     <loc>http://mei6.site/2016/11/13/guava-EventBus/</loc>
-    <lastmod>2016-11-13T13:06:30.000Z</lastmod>
+    <lastmod>2016-11-13T13:31:29.000Z</lastmod>
     <data>
         <display>
         <title>Guava EventBus</title>
@@ -125,7 +77,7 @@
     
   <url>
     <loc>http://mei6.site/2016/11/13/guava-Cache/</loc>
-    <lastmod>2016-11-13T13:06:28.000Z</lastmod>
+    <lastmod>2016-11-13T13:31:23.000Z</lastmod>
     <data>
         <display>
         <title>Guava Cache</title>
@@ -149,7 +101,7 @@
     
   <url>
     <loc>http://mei6.site/2016/11/13/guava-Concurrency/</loc>
-    <lastmod>2016-11-13T13:06:25.000Z</lastmod>
+    <lastmod>2016-11-13T13:31:17.000Z</lastmod>
     <data>
         <display>
         <title>Guava Concurrency</title>
@@ -172,8 +124,56 @@
 
     
   <url>
+    <loc>http://mei6.site/2016/11/13/guava-util/</loc>
+    <lastmod>2016-11-13T13:31:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>Guava Utilities</title>
+        <pubTime>2016-11-13T09:32:30.000Z</pubTime>
+        
+        <tag>读书</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Guava</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://mei6.site/2016/11/13/guava-function/</loc>
+    <lastmod>2016-11-13T13:31:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Guava Function</title>
+        <pubTime>2016-11-13T12:21:43.000Z</pubTime>
+        
+        <tag>读书</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Guava</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://mei6.site/2016/11/13/guava-collection/</loc>
-    <lastmod>2016-11-13T13:03:12.000Z</lastmod>
+    <lastmod>2016-11-13T13:31:02.000Z</lastmod>
     <data>
         <display>
         <title>Guava Collection</title>
@@ -196,12 +196,12 @@
 
     
   <url>
-    <loc>http://mei6.site/2016/11/13/guava-util/</loc>
-    <lastmod>2016-11-13T12:40:58.000Z</lastmod>
+    <loc>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</loc>
+    <lastmod>2016-11-13T13:30:56.000Z</lastmod>
     <data>
         <display>
-        <title>Guava Utilities</title>
-        <pubTime>2016-11-13T09:32:30.000Z</pubTime>
+        <title>Getting.Started.with.Google.Guava</title>
+        <pubTime>2016-11-12T13:32:26.000Z</pubTime>
         
         <tag>读书</tag>
          
