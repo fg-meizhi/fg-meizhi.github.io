@@ -7,6 +7,8 @@
       <title><![CDATA[Guava Function]]></title>
       <url>http://mei6.site/2016/11/13/guava-function/</url>
       <content type="html"><![CDATA[<!-- 开始正文 -->
+<p>目录：<a href="http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/" target="_blank" rel="external">Getting.Started.with.Google.Guava</a></p>
+<hr>
 <h2 id="函数式编程"><a class="header-anchor" href="#函数式编程"> </a>函数式编程</h2>
 <h3 id="function-接口"><a class="header-anchor" href="#function-接口"> </a>Function 接口</h3>
 <p>Fuction接口只有两个方法</p>
@@ -62,6 +64,8 @@
       <title><![CDATA[Guava Collection]]></title>
       <url>http://mei6.site/2016/11/13/guava-collection/</url>
       <content type="html"><![CDATA[<!-- 开始正文 -->
+<p>目录：<a href="http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/" target="_blank" rel="external">Getting.Started.with.Google.Guava</a></p>
+<hr>
 <h2 id="集合类工具"><a class="header-anchor" href="#集合类工具"> </a>集合类工具</h2>
 <h3 id="fluentiterable"><a class="header-anchor" href="#fluentiterable"> </a>FluentIterable</h3>
 <p>流式迭代器</p>
@@ -175,6 +179,8 @@
       <title><![CDATA[Guava Utilities]]></title>
       <url>http://mei6.site/2016/11/13/guava-util/</url>
       <content type="html"><![CDATA[<!-- 开始正文 -->
+<p>目录：<a href="http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/" target="_blank" rel="external">Getting.Started.with.Google.Guava</a></p>
+<hr>
 <h2 id="基本工具类"><a class="header-anchor" href="#基本工具类"> </a>基本工具类</h2>
 <h3 id="joiner"><a class="header-anchor" href="#joiner"> </a>Joiner</h3>
 <p>通常的字符串操作</p>
@@ -330,6 +336,10 @@
 <p>把示例代码拷入到项目中，包括测试代码，用Maven Install一下(skip test，个别单元测试有问题)，在项目根目录下创建一个git库，share到GitHub，地址：<a href="https://github.com/fg-meizhi/Getting.Started.with.Google.Guava" target="_blank" rel="external">Getting.Started.with.Google.Guava</a>。</p>
 <p>好了，看看Guava都能做什么。</p>
 <hr>
+<p><a href="http://www.mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/" target="_blank" rel="external">Getting.Started.with.Google.Guava</a>
+<a href="http://www.mei6.site/2016/11/13/guava-util/" target="_blank" rel="external">Guava Utilities</a>
+<a href="http://www.mei6.site/2016/11/13/guava-function/" target="_blank" rel="external">Guava Function</a>
+<a href="http://www.mei6.site/2016/11/13/guava-collection/" target="_blank" rel="external">Guava Collection</a></p>
 <hr>
 <p>感想，自己读书的速度太慢了，还要做点儿笔记备忘，速度就更慢了。</p>
 ]]></content>
