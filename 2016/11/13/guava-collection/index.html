@@ -1,67 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
-  
-  
-    
-    <entry>
-      <title><![CDATA[Guava Function]]></title>
-      <url>http://mei6.site/2016/11/13/guava-function/</url>
-      <content type="html"><![CDATA[<!-- 开始正文 -->
-<h2 id="函数式编程"><a class="header-anchor" href="#函数式编程"> </a>函数式编程</h2>
-<h3 id="function-接口"><a class="header-anchor" href="#function-接口"> </a>Function 接口</h3>
-<p>Fuction接口只有两个方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Function</span>&lt;<span class="title">F</span>,<span class="title">T</span>&gt; </span>&#123;</div><div class="line">    <span class="function">T <span class="title">apply</span><span class="params">(F input)</span></span>;</div><div class="line">    <span class="function"><span class="keyword">boolean</span> <span class="title">equals</span><span class="params">(Object object)</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>实现日期格式转换功能</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DateFormatFunction</span> <span class="keyword">implements</span> <span class="title">Function</span>&lt;<span class="title">Date</span>,<span class="title">String</span>&gt; </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> String dateFormat;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="title">DateFormatFunction</span><span class="params">(String dateFormat)</span> </span>&#123;</div><div class="line">        <span class="keyword">this</span>.dateFormat = dateFormat;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">apply</span><span class="params">(Date input)</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="keyword">new</span> SimpleDateFormat(dateFormat).format(input);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>简化写法，使用匿名类实现</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Function&lt;Date,String&gt; function = <span class="keyword">new</span> Function&lt;Date, String&gt;() &#123;</div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">apply</span><span class="params">( Date input)</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> <span class="keyword">new</span></div><div class="line">                SimpleDateFormat(<span class="string">"dd/mm/yyyy"</span>).format(input);</div><div class="line">    &#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
-<p>上面只是举例如何实现Function接口，格式化日期有更简单的方法。</p>
-<h3 id="functions-类"><a class="header-anchor" href="#functions-类"> </a>Functions 类</h3>
-<p>主要方法：</p>
-<ul>
-<li>Functions.forMap</li>
-<li>Functions.compose</li>
-</ul>
-<h3 id="predicate-接口"><a class="header-anchor" href="#predicate-接口"> </a>Predicate 接口</h3>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Predicate</span>&lt;<span class="title">T</span>&gt; </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">boolean</span> <span class="title">apply</span><span class="params">(T input)</span></span>;</div><div class="line">    <span class="function"><span class="keyword">boolean</span> <span class="title">equals</span><span class="params">(Object object)</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="predicates-类"><a class="header-anchor" href="#predicates-类"> </a>Predicates 类</h3>
-<ul>
-<li>Predicates.and</li>
-<li>Predicates.or</li>
-<li>Predicates.not</li>
-<li>Predicates.compose</li>
-</ul>
-<p>用来比较、过滤条件</p>
-<h3 id="supplier-接口"><a class="header-anchor" href="#supplier-接口"> </a>Supplier 接口</h3>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Supplier</span>&lt;<span class="title">T</span>&gt; </span>&#123;</div><div class="line">    <span class="function">T <span class="title">get</span><span class="params">()</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>get方法返回泛型T的实例</p>
-<h3 id="suppliers-类"><a class="header-anchor" href="#suppliers-类"> </a>Suppliers 类</h3>
-<p>对象缓存的实现</p>
-<ul>
-<li>Suppliers.memoize</li>
-<li>Suppliers.memoizeWithExpiration</li>
-</ul>
-<blockquote>
-<p>以上参考<a href="http://www.cnblogs.com/renchunxiao/p/3674604.html" target="_blank" rel="external">使用Guava进行函数式编程</a>，内容翻译的很详细。</p>
-</blockquote>
-<hr>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-87257256-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Guava Collection]]></title>
-      <url>http://mei6.site/2016/11/13/guava-collection/</url>
-      <content type="html"><![CDATA[<!-- 开始正文 -->
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>Guava Collection | 没溜儿</title><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/4.2.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/grids-responsive-min.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="/css/donate.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Guava Collection</h1><a id="logo" href="/.">没溜儿</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Guava Collection</h1><div class="post-meta">Nov 13, 2016<span> | </span><span class="category"><a href="/categories/读书/">读书</a></span></div><a data-thread-key="2016/11/13/guava-collection/" href="/2016/11/13/guava-collection/#comments" class="ds-thread-count"></a><div class="clear"><div id="toc" class="toc-article"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#集合类工具"><span class="toc-number">1.</span> <span class="toc-text"> 集合类工具</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#fluentiterable"><span class="toc-number">1.1.</span> <span class="toc-text"> FluentIterable</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#fluentiterable-flter"><span class="toc-number">1.1.1.</span> <span class="toc-text"> FluentIterable.flter</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#fluentiterable-transform"><span class="toc-number">1.1.2.</span> <span class="toc-text"> FluentIterable.transform</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lists"><span class="toc-number">1.2.</span> <span class="toc-text"> Lists</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#sets"><span class="toc-number">1.3.</span> <span class="toc-text"> Sets</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#sets-difference"><span class="toc-number">1.3.1.</span> <span class="toc-text"> Sets.difference</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#sets-symmetricdifference"><span class="toc-number">1.3.2.</span> <span class="toc-text"> Sets.symmetricDifference</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#sets-intersection"><span class="toc-number">1.3.3.</span> <span class="toc-text"> Sets.intersection</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#sets-union"><span class="toc-number">1.3.4.</span> <span class="toc-text"> Sets.union</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#maps"><span class="toc-number">1.4.</span> <span class="toc-text"> Maps</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#maps-uniqueindex"><span class="toc-number">1.4.1.</span> <span class="toc-text"> Maps.uniqueIndex</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#maps-asmap"><span class="toc-number">1.4.2.</span> <span class="toc-text"> Maps.asMap</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#maps-tomap"><span class="toc-number">1.4.3.</span> <span class="toc-text"> Maps.toMap</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#arraylistmultimap"><span class="toc-number">1.4.4.</span> <span class="toc-text"> ArrayListMultimap</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#hashmultimap"><span class="toc-number">1.4.5.</span> <span class="toc-text"> HashMultimap</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#bimap"><span class="toc-number">1.5.</span> <span class="toc-text"> BiMap</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#bimap-forceput"><span class="toc-number">1.5.1.</span> <span class="toc-text"> BiMap.forcePut</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#bimap-inverse"><span class="toc-number">1.5.2.</span> <span class="toc-text"> BiMap.inverse</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#table"><span class="toc-number">1.6.</span> <span class="toc-text"> Table</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#table-views"><span class="toc-number">1.6.1.</span> <span class="toc-text"> Table views</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#arraytable"><span class="toc-number">1.6.2.</span> <span class="toc-text"> ArrayTable</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#immutabletable"><span class="toc-number">1.6.3.</span> <span class="toc-text"> ImmutableTable</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#treebasedtable"><span class="toc-number">1.6.4.</span> <span class="toc-text"> TreeBasedTable</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#range"><span class="toc-number">1.7.</span> <span class="toc-text"> Range</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#immutable-collections"><span class="toc-number">1.8.</span> <span class="toc-text"> Immutable collections</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ordering"><span class="toc-number">1.9.</span> <span class="toc-text"> Ordering</span></a></li></ol></li></ol></div></div><div class="post-content"><!-- 开始正文 -->
 <h2 id="集合类工具"><a class="header-anchor" href="#集合类工具"> </a>集合类工具</h2>
 <h3 id="fluentiterable"><a class="header-anchor" href="#fluentiterable"> </a>FluentIterable</h3>
 <p>流式迭代器</p>
@@ -168,190 +105,34 @@
   ga('send', 'pageview');
 
 </script>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Guava Utilities]]></title>
-      <url>http://mei6.site/2016/11/13/guava-util/</url>
-      <content type="html"><![CDATA[<!-- 开始正文 -->
-<h2 id="基本工具类"><a class="header-anchor" href="#基本工具类"> </a>基本工具类</h2>
-<h3 id="joiner"><a class="header-anchor" href="#joiner"> </a>Joiner</h3>
-<p>通常的字符串操作</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> String <span class="title">buildString</span><span class="params">(List&lt;String&gt; stringList, String delimiter)</span></span>&#123;</div><div class="line">   StringBuilder builder = <span class="keyword">new</span> StringBuilder();</div><div class="line">   <span class="keyword">for</span> (String s : stringList) &#123;</div><div class="line">       <span class="keyword">if</span>(s !=<span class="keyword">null</span>)&#123;</div><div class="line">           builder.append(s).append(delimiter);</div><div class="line">       &#125; &#125;</div><div class="line">   builder.setLength(builder.length() - delimiter.length());</div><div class="line">   <span class="keyword">return</span> builder.toString();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>使用Joiner操作，跳过空值：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Joiner.on(<span class="string">"|"</span>).skipNulls().join(stringList);</div></pre></td></tr></table></figure>
-<p>替换空值：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Joiner.on(<span class="string">"|"</span>).useForNull(<span class="string">"no value"</span>).join(stringList);</div></pre></td></tr></table></figure>
-<p>另外两个处理字符串的例子：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">Joiner stringJoiner = Joiner.on(<span class="string">"|"</span>).skipNulls();</div><div class="line"><span class="comment">//the useForNull() method returns a new instance of the Joiner!</span></div><div class="line">stringJoiner.useForNull(<span class="string">"missing"</span>);</div><div class="line">stringJoiner.join(<span class="string">"foo"</span>,<span class="string">"bar"</span>,<span class="keyword">null</span>);</div><div class="line"></div><div class="line">-------</div><div class="line"></div><div class="line">StringBuilder stringBuilder = <span class="keyword">new</span> StringBuilder();</div><div class="line">Joiner joiner = Joiner.on(<span class="string">"|"</span>).skipNulls();</div><div class="line"><span class="comment">// returns the StringBuilder instance with the values foo,bar,baz appeneded with "|" delimiters</span></div><div class="line">joiner.appendTo(stringBuilder,<span class="string">"foo"</span>,<span class="string">"bar"</span>,<span class="string">"baz"</span>)</div></pre></td></tr></table></figure>
-<p>Joiner不仅仅处理字符串，还能处理各种集合类型，调用对象的<code>toString</code>方法，append 集合到流：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">FileWriter fileWriter = <span class="keyword">new</span> FileWriter(<span class="keyword">new</span> File(<span class="string">"path"</span>)):List&lt;Date&gt; dateList = getDates();</div><div class="line">Joiner joiner = Joiner.on(<span class="string">"#"</span>).useForNulls(<span class="string">" "</span>);<span class="comment">// returns the FileWriter instance with the values appended into it</span>joiner.appendTo(fileWriter,dateList);</div></pre></td></tr></table></figure>
-<p>MapJoiner方法处理键值对类型</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mapJoiner = Joiner.on(<span class="string">"#"</span>).withKeyValueSeparator(<span class="string">"="</span>);</div></pre></td></tr></table></figure>
-<h3 id="splitter"><a class="header-anchor" href="#splitter"> </a>Splitter</h3>
-<p>用分隔符拆分字符串</p>
-<p>不使用类库的方式：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">String testString = <span class="string">"Monday,Tuesday,,Thursday,Friday,,"</span>;</div><div class="line"></div><div class="line"><span class="comment">// parts is [Monday, Tuesday, , Thursday,Friday]</span></div><div class="line">String[] parts = testString.split(<span class="string">","</span>);</div></pre></td></tr></table></figure>
-<p>Splitter，还支持正则表达式</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Splitter.on(<span class="string">'|'</span>).split(<span class="string">"foo|bar|baz"</span>);Splitter splitter = Splitter.on(<span class="string">"\\d+"</span>);</div></pre></td></tr></table></figure>
-<p>trim头尾的空格</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Splits on '|' and removes any leading or trailing whitespace</span></div><div class="line">Splitter splitter = Splitter.on(<span class="string">'|'</span>).trimResults();</div></pre></td></tr></table></figure>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">Splitter splitter = Splitter.on(<span class="string">'|'</span>);</div><div class="line"></div><div class="line"><span class="comment">// Next call returns a new instance, does not modify the original!</span></div><div class="line"><span class="comment">// 返回新实例，不修改原始对象</span></div><div class="line">splitter.trimResults();</div><div class="line"></div><div class="line"><span class="comment">// Result would still contain empty elements</span></div><div class="line">Iterable&lt;String&gt; parts = splitter.split(<span class="string">"1|2|3|||"</span>);</div></pre></td></tr></table></figure>
-<p>MapSplitter</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// MapSplitter is defined as an inner class of Splitter</span></div><div class="line">Splitter.MapSplitter mapSplitter = Splitter.on(<span class="string">"#"</span>).withKeyValueSeparator(<span class="string">"="</span>);</div></pre></td></tr></table></figure>
-<h3 id="strings-in-guava"><a class="header-anchor" href="#strings-in-guava"> </a>strings in Guava</h3>
-<h4 id="charsets"><a class="header-anchor" href="#charsets"> </a>Charsets</h4>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">byte</span>[] bytes2 = <span class="string">"foobarbaz"</span>.getBytes(Charsets.UTF_8);</div></pre></td></tr></table></figure>
-<h4 id="strings"><a class="header-anchor" href="#strings"> </a>Strings</h4>
-<p>Have you ever had to write something like the following?</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">StringBuilder builder = <span class="keyword">new</span> StringBuilder(<span class="string">"foo"</span>);</div><div class="line"></div><div class="line"><span class="keyword">char</span> c = <span class="string">'x'</span>;</div><div class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;<span class="number">3</span>; i++)&#123;</div><div class="line">    builder.append(c);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">return</span> builder.toString();</div></pre></td></tr></table></figure>
-<p>The previous example, which spans 6 lines of code, can now be replaced with one line.</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Strings.padEnd(<span class="string">"foo"</span>,<span class="number">6</span>,<span class="string">'x'</span>);</div></pre></td></tr></table></figure>
-<blockquote>
-<p>中间参数6表示返回字符串的最小长度，而不是添加了多少次x。</p>
-</blockquote>
-<p>如遇null，建议使用nullToEmpty。</p>
-<h4 id="charmatcher"><a class="header-anchor" href="#charmatcher"> </a>CharMatcher</h4>
-<p>字符匹配、替换操作</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">CharMatcher.BREAKING_WHITESPACE.replaceFrom(stringWithLinebreaks,<span class="string">' '</span>);</div></pre></td></tr></table></figure>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Test</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">testRemoveWhiteSpace</span><span class="params">()</span></span>&#123;</div><div class="line">    String tabsAndSpaces = <span class="string">"String  with      spaces     and           tabs"</span>;</div><div class="line">    String expected = <span class="string">"String with spaces and tabs"</span>;</div><div class="line">    String scrubbed = CharMatcher.WHITESPACE.collapseFrom(tabsAndSpaces,<span class="string">' '</span>);</div><div class="line">    assertThat(scrubbed,is(expected));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>提取特定字符，字符表达式还可以连写，组成多个条件</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Test</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">testRetainFrom</span><span class="params">()</span></span>&#123;</div><div class="line">    String lettersAndNumbers = <span class="string">"foo989yxbar234"</span>;</div><div class="line">    String expected = <span class="string">"989234"</span>;</div><div class="line">    String retained = CharMatcher.JAVA_DIGIT.retainFrom(lettersAndNumbers);</div><div class="line">    assertThat(expected,is(retained));</div><div class="line">&#125;</div><div class="line"></div><div class="line">---</div><div class="line"></div><div class="line">CharMatcher cm = CharMatcher.JAVA_DIGIT.or(CharMatcher.WHITESPACE);</div></pre></td></tr></table></figure>
-<h4 id="preconditions"><a class="header-anchor" href="#preconditions"> </a>Preconditions</h4>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">PreconditionExample</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> String state;</div><div class="line">    <span class="keyword">private</span> <span class="keyword">int</span>[] values = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">5</span>];</div><div class="line">    <span class="keyword">private</span> <span class="keyword">int</span> currentIndex;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="title">PreconditionExample</span><span class="params">(String state)</span> </span>&#123;</div><div class="line">        <span class="comment">//returns value of object if not null</span></div><div class="line">        <span class="keyword">this</span>.state = checkNotNull(state,<span class="string">"Label can't be null"</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">updateCurrentIndexValue</span><span class="params">(<span class="keyword">int</span> index, <span class="keyword">int</span> valueToSet)</span> </span>&#123;</div><div class="line">        <span class="comment">//Check index valid first</span></div><div class="line">        <span class="keyword">this</span>.currentIndex = checkElementIndex(index, values.length, <span class="string">"Index out of bounds for values"</span>);</div><div class="line">        <span class="comment">//Validate state of value</span></div><div class="line">        checkArgument(valueToSet &lt;= <span class="number">100</span>,<span class="string">"Value can't be more than 100"</span>);</div><div class="line">        values[<span class="keyword">this</span>.currentIndex] = valueToSet;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">doOperation</span><span class="params">()</span></span>&#123;</div><div class="line">        checkState(validateObjectState(),<span class="string">"Can't perform operation"</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">boolean</span> <span class="title">validateObjectState</span><span class="params">()</span></span>&#123;</div><div class="line">      <span class="keyword">return</span> <span class="keyword">this</span>.state.equalsIgnoreCase(<span class="string">"open"</span>) &amp;&amp; values[<span class="keyword">this</span>.currentIndex]==<span class="number">10</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">int</span>[] getValues() &#123;</div><div class="line">        <span class="keyword">return</span> values;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>主要方法：</p>
-<ul>
-<li>checkNotNull (T object, Object message)</li>
-<li>checkElementIndex (int index, int size, Object message)</li>
-<li>checkArgument(Boolean expression, Object message)</li>
-<li>checkState(Boolean expression, Object message)</li>
-</ul>
-<p>用来</p>
-<ul>
-<li>检查字符串错误，返回错误消息文本</li>
-<li>检查数字，正确返回数字本身，错误抛出异常</li>
-</ul>
-<p>可以查看源码com.google.common.base.Preconditions的实现，封装了各种检查</p>
-<h3 id="object-utilities"><a class="header-anchor" href="#object-utilities"> </a>Object utilities</h3>
-<p>重写toString方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> Objects.toStringHelper(<span class="keyword">this</span>)</div><div class="line">            .omitNullValues()</div><div class="line">            .add(<span class="string">"title"</span>, title)</div><div class="line">            .add(<span class="string">"author"</span>, author)</div><div class="line">            .add(<span class="string">"publisher"</span>, publisher)</div><div class="line">            .add(<span class="string">"price"</span>, price)</div><div class="line">            .add(<span class="string">"isbn"</span>, isbn).toString();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>重写hashCode方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">hashCode</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> Objects.hashCode(title, author, publisher, isbn);&#125;</div></pre></td></tr></table></figure>
-<p>重写compareTo方法</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Override</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">compareTo</span><span class="params">(Book o)</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> ComparisonChain.start()</div><div class="line">            .compare(<span class="keyword">this</span>.title, o.getTitle())</div><div class="line">            .compare(<span class="keyword">this</span>.author, o.getAuthor())</div><div class="line">            .compare(<span class="keyword">this</span>.publisher, o.getPublisher())</div><div class="line">            .compare(<span class="keyword">this</span>.isbn, o.getIsbn())</div><div class="line">            .compare(<span class="keyword">this</span>.price, o.getPrice())</div><div class="line">            .result();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-87257256-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Aria2GUI：绕过百度网盘满速下载]]></title>
-      <url>http://mei6.site/2016/11/13/Aria2GUI/</url>
-      <content type="html"><![CDATA[<!-- abstract -->
-<p><img src="http://www.sdifenzhou.com/wp-content/uploads/2016/11/Aria2GUInew.jpg" alt=""></p>
-<a id="more"></a>
-<!-- 开始正文 -->
-<p>看起来是个神器，感谢作者，<a href="http://www.sdifenzhou.com/aria2guinew.html" target="_blank" rel="external">博客链接</a></p>
-<p>下载要点这个
-<img src="http://ogjeb66bz.bkt.clouddn.com/14790250259177.jpg" alt=""></p>
-<p>试了一下，出差就酒店的下载速度
-<img src="http://ogjeb66bz.bkt.clouddn.com/14790250400044.jpg" alt=""></p>
-<blockquote>
-<p>阿里数据库同步的otter使用的也是Aira2客户端，不过没有GUI。</p>
-</blockquote>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-87257256-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Ceceree]]></title>
-      <url>http://mei6.site/2016/11/13/ceceree/</url>
-      <content type="html"><![CDATA[<!-- abstract -->
-<p>忍不住想分享一下，Mac上的App心愿单Ceceree</p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/14790227328887.jpg" alt=""></p>
-<a id="more"></a>
-<!-- 开始正文 -->
-<p>有没有看到很好的App但是很贵，舍不得下手？又不知道什么时候限免？</p>
-<p>Ceceree就是用来收藏心仪App的地方，只要复制App的链接，即可收藏，并且会提示你限免。IOS或者Mac的App都可以收藏。</p>
-<p>缺点：不能放到任务栏，只能在Docker里开窗口，有点儿不爽。</p>
-<p>还有就是买了之后还没有碰到限免，额，可能还得再等等。</p>
-<blockquote>
-<p>PS：正版的话不到RMB30，如果有条件，请支持正版。</p>
-</blockquote>
-<p>附上其他人的详细介绍，<a href="http://www.sdifenzhou.com/ceceree123.html" target="_blank" rel="external">http://www.sdifenzhou.com/ceceree123.html</a></p>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-87257256-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Getting.Started.with.Google.Guava]]></title>
-      <url>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</url>
-      <content type="html"><![CDATA[<!-- abstract -->
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/14789679847753.jpg" alt=""></p>
-<p>Google 的java库，抽空看一下</p>
-<a id="more"></a>
-<!-- 开始正文 -->
-<p>Google的Java工具包，从08年开始的项目，看看有什么对我有帮助的。</p>
-<h2 id="准备工作"><a class="header-anchor" href="#准备工作"> </a>准备工作</h2>
-<p>添加Guava依赖</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- https://mvnrepository.com/artifact/com.google.guava/guava --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.google.guava<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>guava<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>14.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div></pre></td></tr></table></figure>
-<p>Guava一直在维护，目前最新版本是20.0，2016.10有新的release：
-<img src="http://ogjeb66bz.bkt.clouddn.com/14789742921184.jpg" alt=""></p>
-<p>下载书中的源码
-<a href="https://www.packtpub.com/books/content/support/13091" target="_blank" rel="external">https://www.packtpub.com/books/content/support/13091</a></p>
-<p>创建一个测试的小项目，修改Pom，下载的代码版本有点儿老，只更新了maven-compiler-plugin的版本，其他依赖的版本没动，避免升级版本示例代码跑不起来。</p>
-<p>把示例代码拷入到项目中，包括测试代码，用Maven Install一下(skip test，个别单元测试有问题)，在项目根目录下创建一个git库，share到GitHub，地址：<a href="https://github.com/fg-meizhi/Getting.Started.with.Google.Guava" target="_blank" rel="external">Getting.Started.with.Google.Guava</a>。</p>
-<p>好了，看看Guava都能做什么。</p>
-<hr>
-<hr>
-<p>感想，自己读书的速度太慢了，还要做点儿笔记备忘，速度就更慢了。</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[有了没事儿瞎咧咧的地方]]></title>
-      <url>http://mei6.site/2016/11/12/hello-there/</url>
-      <content type="html"><![CDATA[<p>一直没有养成写博客的习惯，几年前在javaeye写过一点儿东西，后来东西都是放在Evernote里面。</p>
-<p>借助几篇文章，很快的帮我搭起来这个简单的博客，感谢下面这几篇文章的作者，把他们列在这里，希望能帮助有我这样需求的人少走弯路：</p>
-<ul>
-<li><a href="http://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/index.html" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a></li>
-<li><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">如何搭建一个独立博客——简明Github Pages与Hexo教程</a></li>
-<li><a href="https://www.haomwei.com/technology/maupassant-hexo.html" target="_blank" rel="external">大道至简——Hexo简洁主题推荐</a></li>
-<li><a href="http://www.selfrebuild.net/2016/08/25/mweb-hexo-blog-config/" target="_blank" rel="external">使用 Mweb 配合 hexo 编写 github 博客</a></li>
-<li><a href="https://joilence.github.io/2016/07/14/improve-blog/" target="_blank" rel="external">Hexo 博客进阶配置与常见问题</a></li>
-<li><a href="http://codingpub.github.io/2016/04/10/%E5%AE%9A%E5%88%B6Hexo-maupassant/" target="_blank" rel="external">定制Hexo - maupassant</a></li>
-<li><a href="https://qifuguang.me/2016/08/14/%E5%A6%82%E4%BD%95%E4%B8%BA%E5%8D%9A%E5%AE%A2%E5%A2%9E%E5%8A%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/" target="_blank" rel="external">如何为博客增加打赏功能</a></li>
-</ul>
-]]></content>
-    </entry>
-    
-  
-  
-</search>
+</div><script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a data-url="http://mei6.site/2016/11/13/guava-collection/" data-id="civgmlwnx0007hjs6xpj8rl7m" class="article-share-link">分享到</a><div class="tags"><a href="/tags/读书/">读书</a><a href="/tags/Java/">Java</a><a href="/tags/Guava/">Guava</a></div><div class="post-nav"><a href="/2016/11/13/guava-function/" class="pre">Guava Function</a><a href="/2016/11/13/guava-util/" class="next">Guava Utilities</a></div><div data-thread-key="2016/11/13/guava-collection/" data-title="Guava Collection" data-url="http://mei6.site/2016/11/13/guava-collection/" class="ds-share flat"><div class="ds-share-inline"><ul class="ds-share-icons-16"><li data-toggle="ds-share-icons-more"><a href="javascript:void(0);" class="ds-more">分享到：</a></li><li><a href="javascript:void(0);" data-service="weibo" class="ds-weibo">微博</a></li><li><a href="javascript:void(0);" data-service="qzone" class="ds-qzone">QQ空间</a></li><li><a href="javascript:void(0);" data-service="qqt" class="ds-qqt">腾讯微博</a></li><li><a href="javascript:void(0);" data-service="wechat" class="ds-wechat">微信</a></li></ul><div class="ds-share-icons-more"></div></div></div><div class="post-donate"><div id="donate_board" class="donate_bar center"><a id="btn_donate" href="javascript:;" title="打赏" class="btn_donate"></a><div class="donate_txt"> &uarr;<br>此文有用? 求鼓励!<br></div></div><div id="donate_guide" class="donate_bar center hidden"><img src="http://ogjeb66bz.bkt.clouddn.com/mei6-donate-2.jpeg" title="微信打赏"></div><script type="text/javascript">document.getElementById('btn_donate').onclick = function(){
+    $('#donate_board').addClass('hidden');
+    $('#donate_guide').removeClass('hidden');
+}</script></div><div data-thread-key="2016/11/13/guava-collection/" data-title="Guava Collection" data-url="http://mei6.site/2016/11/13/guava-collection/" data-author-key="1" class="ds-thread"></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-App/">Mac-App</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/瞎咧咧/">瞎咧咧</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书/">读书</a><span class="category-list-count">4</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Mac/" style="font-size: 15px;">Mac</a> <a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/百度网盘/" style="font-size: 15px;">百度网盘</a> <a href="/tags/读书/" style="font-size: 15px;">读书</a> <a href="/tags/Java/" style="font-size: 15px;">Java</a> <a href="/tags/Guava/" style="font-size: 15px;">Guava</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/11/13/guava-function/">Guava Function</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/13/guava-collection/">Guava Collection</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/13/guava-util/">Guava Utilities</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/13/Aria2GUI/">Aria2GUI：绕过百度网盘满速下载</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/13/ceceree/">Ceceree</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/">Getting.Started.with.Google.Guava</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/11/12/hello-there/">有了没事儿瞎咧咧的地方</a></li></ul></div><div class="widget"><div class="comments-title"><i class="fa fa-comment-o"> 最近评论</i></div><div data-num-items="5" data-show-avatars="0" data-show-time="1" data-show-admin="0" data-excerpt-length="32" data-show-title="1" class="ds-recent-comments"></div></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">© <a href="/." rel="nofollow">没溜儿.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=0.0.0"><script>var duoshuoQuery = {short_name:'mei6'};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script><script type="text/javascript" src="/js/search.js?v=0.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+   search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create','UA-87257256-1','auto');ga('send','pageview');
+</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?cb2fd82b4ac16d6ba27085a3893c230a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();
+</script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
