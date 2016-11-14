@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mei6.site/"/>
-  <updated>2016-11-14T17:11:32.000Z</updated>
+  <updated>2016-11-14T17:45:17.000Z</updated>
   <id>http://mei6.site/</id>
   
   <author>
@@ -14,6 +14,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Gitpage 构建失败处理</title>
+    <link href="http://mei6.site/2016/11/15/gitpage-build-failed/"/>
+    <id>http://mei6.site/2016/11/15/gitpage-build-failed/</id>
+    <published>2016-11-14T17:33:34.000Z</published>
+    <updated>2016-11-14T17:45:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<!-- abstract -->
+<p>今天在发布博客到GitPage的时候，收到一封构建失败的邮件，记录一下处理过程。</p>
+<a id="more"></a>
+<!-- 开始正文 -->
+<p>不知道为了什么，可能是hexo生成博客的时候除了什么问题，发布到GitPage，构建失败了，可心的Github还发了封邮件，通知了我。</p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/14791454128407.jpg" alt=""></p>
+<p>我还一直在那儿刷刷刷页面，怎么都刷不出来更新。</p>
+<p>登录到Github，看到新提交的文件都在，说明提交过程没问题。</p>
+<p>看看构建博客脚本的输出</p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/14791451852328.jpg" alt=""></p>
+<p>代码明明都在，pull了一下也不好使，清空本地git库文件，保留.git文件夹。</p>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git <span class="keyword">add</span><span class="bash"> *</span></div><div class="line">$ git commit -m <span class="string">'remove all'</span></div><div class="line">$ git push</div></pre></td></tr></table></figure>
+<p>然后重新执行构建hexo的脚本，发布成功。看来重启作为网管必杀技之首是有道理的，放之四海而皆准。</p>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87257256-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;!-- abstract --&gt;
+&lt;p&gt;今天在发布博客到GitPage的时候，收到一封构建失败的邮件，记录一下处理过程。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Github" scheme="http://mei6.site/categories/Github/"/>
+    
+      <category term="GitPage" scheme="http://mei6.site/categories/Github/GitPage/"/>
+    
+    
+      <category term="Github" scheme="http://mei6.site/tags/Github/"/>
+    
+      <category term="GitPage" scheme="http://mei6.site/tags/GitPage/"/>
+    
+  </entry>
   
   <entry>
     <title>在项目中使用Docker</title>

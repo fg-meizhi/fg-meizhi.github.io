@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mei6.site/2016/11/15/gitpage-build-failed/</loc>
+    
+    <lastmod>2016-11-14T17:45:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://mei6.site/2016/11/14/develop-in-docker/</loc>
     
     <lastmod>2016-11-14T17:11:32.000Z</lastmod>

@@ -4,6 +4,31 @@
 
     
   <url>
+    <loc>http://mei6.site/2016/11/15/gitpage-build-failed/</loc>
+    <lastmod>2016-11-14T17:45:17.000Z</lastmod>
+    <data>
+        <display>
+        <title>Gitpage 构建失败处理</title>
+        <pubTime>2016-11-14T17:33:34.000Z</pubTime>
+        
+        <tag>Github</tag>
+         
+        <tag>GitPage</tag>
+         
+         
+           
+             
+              <breadCrumb title="Github" url="http://mei6.site/categories/Github/"/>
+          
+             
+              <breadCrumb title="GitPage" url="http://mei6.site/categories/Github/GitPage/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://mei6.site/2016/11/14/develop-in-docker/</loc>
     <lastmod>2016-11-14T17:11:32.000Z</lastmod>
     <data>
