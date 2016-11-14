@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mei6.site/2016/11/14/develop-in-docker/</loc>
+    
+    <lastmod>2016-11-14T17:11:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://mei6.site/2016/11/14/docker-nexus/</loc>
+    
+    <lastmod>2016-11-14T15:53:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://mei6.site/2016/11/14/docker-registry/</loc>
+    
+    <lastmod>2016-11-14T15:51:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://mei6.site/2016/11/13/guava-Cache/</loc>
+    
+    <lastmod>2016-11-13T14:54:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://mei6.site/2016/11/13/guava-Concurrency/</loc>
+    
+    <lastmod>2016-11-13T14:54:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://mei6.site/2016/11/12/PacktPub-Getting-Started-with-Google-Guava/</loc>
     
     <lastmod>2016-11-13T14:02:29.000Z</lastmod>
@@ -26,20 +61,6 @@
     <loc>http://mei6.site/2016/11/13/guava-EventBus/</loc>
     
     <lastmod>2016-11-13T13:31:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://mei6.site/2016/11/13/guava-Cache/</loc>
-    
-    <lastmod>2016-11-13T13:31:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://mei6.site/2016/11/13/guava-Concurrency/</loc>
-    
-    <lastmod>2016-11-13T13:31:17.000Z</lastmod>
     
   </url>
   
