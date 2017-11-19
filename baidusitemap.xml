@@ -4,6 +4,104 @@
 
     
   <url>
+    <loc>http://mei6.site/2017/10/31/Reading-%E6%B7%B1%E5%BA%A6%E5%B7%A5%E4%BD%9C/</loc>
+    <lastmod>2017-11-19T09:40:20.786Z</lastmod>
+    <data>
+        <display>
+        <title>PR《深度工作》</title>
+        <pubTime>2017-10-31T00:22:52.000Z</pubTime>
+        
+        <tag>读书</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://mei6.site/2016/11/15/reading-list-2016/</loc>
+    <lastmod>2016-12-19T00:50:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>今年读的几本书</title>
+        <pubTime>2016-11-14T18:13:52.000Z</pubTime>
+        
+        <tag>读书</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书" url="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://mei6.site/2016/11/14/develop-in-docker/</loc>
+    <lastmod>2016-11-23T14:14:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>在项目中使用Docker</title>
+        <pubTime>2016-11-14T15:47:45.000Z</pubTime>
+        
+        <tag>Docker</tag>
+         
+         
+           
+             
+              <breadCrumb title="Docker" url="http://mei6.site/categories/Docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://mei6.site/2016/11/14/docker-registry/</loc>
+    <lastmod>2016-11-15T02:30:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>创建Docker私有库</title>
+        <pubTime>2016-11-14T10:44:16.000Z</pubTime>
+        
+        <tag>Docker</tag>
+         
+         
+           
+             
+              <breadCrumb title="Docker" url="http://mei6.site/categories/Docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://mei6.site/2016/11/12/hello-there/</loc>
+    <lastmod>2016-11-14T18:11:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>有了没事儿瞎咧咧的地方</title>
+        <pubTime>2016-11-12T10:51:04.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="瞎咧咧" url="http://mei6.site/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://mei6.site/2016/11/15/gitpage-build-failed/</loc>
     <lastmod>2016-11-14T17:47:03.000Z</lastmod>
     <data>
@@ -29,26 +127,6 @@
 
     
   <url>
-    <loc>http://mei6.site/2016/11/14/develop-in-docker/</loc>
-    <lastmod>2016-11-14T17:11:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>在项目中使用Docker</title>
-        <pubTime>2016-11-14T15:47:45.000Z</pubTime>
-        
-        <tag>Docker</tag>
-         
-         
-           
-             
-              <breadCrumb title="Docker" url="http://mei6.site/categories/Docker/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://mei6.site/2016/11/14/docker-nexus/</loc>
     <lastmod>2016-11-14T15:53:53.000Z</lastmod>
     <data>
@@ -67,26 +145,6 @@
           
              
               <breadCrumb title="Nexus" url="http://mei6.site/categories/Docker/Nexus/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://mei6.site/2016/11/14/docker-registry/</loc>
-    <lastmod>2016-11-14T15:51:42.000Z</lastmod>
-    <data>
-        <display>
-        <title>创建Docker私有库</title>
-        <pubTime>2016-11-14T10:44:16.000Z</pubTime>
-        
-        <tag>Docker</tag>
-         
-         
-           
-             
-              <breadCrumb title="Docker" url="http://mei6.site/categories/Docker/"/>
           
         </display>
     </data>
@@ -349,24 +407,6 @@
            
              
               <breadCrumb title="Mac-App" url="http://mei6.site/categories/Mac-App/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://mei6.site/2016/11/12/hello-there/</loc>
-    <lastmod>2016-11-12T15:45:57.000Z</lastmod>
-    <data>
-        <display>
-        <title>有了没事儿瞎咧咧的地方</title>
-        <pubTime>2016-11-12T10:51:04.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="瞎咧咧" url="http://mei6.site/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
           
         </display>
     </data>
