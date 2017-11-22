@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mei6.site/"/>
-  <updated>2017-11-21T15:07:12.711Z</updated>
+  <updated>2017-11-22T14:16:44.754Z</updated>
   <id>http://mei6.site/</id>
   
   <author>
@@ -16,11 +16,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PR 《刻意练习》</title>
+    <link href="http://mei6.site/2017/11/22/Reading-%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/"/>
+    <id>http://mei6.site/2017/11/22/Reading-刻意练习/</id>
+    <published>2017-11-22T14:09:10.000Z</published>
+    <updated>2017-11-22T14:16:44.754Z</updated>
+    
+    <content type="html"><![CDATA[<p>打卡，10000小时的练习，还是10000小时的刻意练习？</p>
+<a id="more"></a>
+<p>这本书读起来轻松了很多，结构好，思路清晰，还标重点，结合目标、提问，读的很顺畅。</p>
+<ol>
+<li>练习要做，要坚持做</li>
+<li>要有目标，不盲目</li>
+<li>练习重点、专项</li>
+<li>利用反馈，不断调整</li>
+<li>还能获得新技能</li>
+</ol>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E3%80%8A%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0%E3%80%8B.png" alt="《刻意练习》"></p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0-MindMapping.jpg" alt="刻意练习-MindMapping"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;打卡，10000小时的练习，还是10000小时的刻意练习？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="学习方法" scheme="http://mei6.site/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PR 《学习之道》</title>
     <link href="http://mei6.site/2017/11/21/Reading-%E5%AD%A6%E4%B9%A0%E4%B9%8B%E9%81%93/"/>
     <id>http://mei6.site/2017/11/21/Reading-学习之道/</id>
     <published>2017-11-21T14:54:54.000Z</published>
-    <updated>2017-11-21T15:07:12.711Z</updated>
+    <updated>2017-11-22T14:10:32.262Z</updated>
     
     <content type="html"><![CDATA[<p>打卡，划小圈，逆境</p>
 <a id="more"></a>
@@ -45,7 +81,9 @@
       <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="读书,学习方法" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6-%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="学习方法" scheme="http://mei6.site/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -54,7 +92,7 @@
     <link href="http://mei6.site/2017/11/20/Reading-%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0/"/>
     <id>http://mei6.site/2017/11/20/Reading-好好学习/</id>
     <published>2017-11-20T15:24:00.000Z</published>
-    <updated>2017-11-21T15:07:17.590Z</updated>
+    <updated>2017-11-22T14:10:35.386Z</updated>
     
     <content type="html"><![CDATA[<p>打卡，非常好的一本书，阅读的时间点刚好契合我现阶段的目标 - 打造自己的知识体系。</p>
 <a id="more"></a>
@@ -74,7 +112,9 @@
       <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="读书,学习方法" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6-%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="学习方法" scheme="http://mei6.site/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -591,75 +631,6 @@ pad
     <summary type="html">
     
       &lt;p&gt;PhotoReading 《深度工作》&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>今年读的几本书</title>
-    <link href="http://mei6.site/2016/11/15/reading-list-2016/"/>
-    <id>http://mei6.site/2016/11/15/reading-list-2016/</id>
-    <published>2016-11-14T18:13:52.000Z</published>
-    <updated>2017-11-19T15:38:33.359Z</updated>
-    
-    <content type="html"><![CDATA[<p>列一下今年读书的书单</p>
-<a id="more"></a>
-<p>《Spring Boot 实战》
-《今天你真好看》
-《把时间当朋友》</p>
-<p>《Getting.Started.with.Google.Guava》
-<img src="http://ogjeb66bz.bkt.clouddn.com/14789679847753.jpg" alt=""></p>
-<p><a href="http://item.jd.com/11891116.html?jd_pop=4df0baf4-fc36-449a-a976-cbf7f686eae6&amp;abt=3" target="_blank" rel="noopener">《领域驱动设计模式、原理与实践》</a>
-<img src="http://ogjeb66bz.bkt.clouddn.com/14791741377179.jpg" alt=""></p>
-<p><a href="http://item.jd.com/11423256.html" target="_blank" rel="noopener">《实现领域驱动设计 Implementing Domain-Driven Design》</a>
-<img src="http://ogjeb66bz.bkt.clouddn.com/14791744596391.jpg" alt=""></p>
-<p>《Designing Great Web APIs》
-<img src="http://ogjeb66bz.bkt.clouddn.com/14791751905320.jpg" alt=""></p>
-<p><a href="http://item.jd.com/11479919.html" target="_blank" rel="noopener">RESTful Web APIs中文版</a>
-<img src="http://ogjeb66bz.bkt.clouddn.com/14791753986887.jpg" alt=""></p>
-<p>《Microservice Architecture》</p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/14791739548164.jpg" alt=""></p>
-<p><a href="http://item.jd.com/11917800.html" target="_blank" rel="noopener">《微服务设计》</a>
-<img src="http://ogjeb66bz.bkt.clouddn.com/14791745415040.jpg" alt=""></p>
-<p><a href="http://item.jd.com/11955634.html" target="_blank" rel="noopener">Learning ELK Stack 中文版</a>
-<img src="http://ogjeb66bz.bkt.clouddn.com/14791746788174.jpg" alt=""></p>
-<p><a href="http://item.jd.com/11940558.html" target="_blank" rel="noopener">SpringBoot揭秘：快速构建微服务体系</a> 不推荐</p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/14791748735709.jpg" alt=""></p>
-<p><a href="http://item.jd.com/11236743.html" target="_blank" rel="noopener">淘宝技术这十年</a></p>
-<p><a href="http://item.jd.com/11826753.html" target="_blank" rel="noopener">微服务架构与实践</a> 不推荐
-<img src="http://ogjeb66bz.bkt.clouddn.com/14791749835465.jpg" alt=""></p>
-<p><a href="http://item.jd.com/11324152.html" target="_blank" rel="noopener">Java应用架构设计：模块化模式与OSGi</a>
-<img src="http://ogjeb66bz.bkt.clouddn.com/14791750148994.jpg" alt=""></p>
-<hr>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-87257256-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script>
-(function(){
-    var bp = document.createElement('script');
-    bp.src = '//push.zhanzhang.baidu.com/push.js';
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;列一下今年读书的书单&lt;/p&gt;
     
     </summary>
     
