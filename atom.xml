@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mei6.site/"/>
-  <updated>2017-11-23T13:31:44.908Z</updated>
+  <updated>2017-11-25T14:49:08.516Z</updated>
   <id>http://mei6.site/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PR 《学习的科学》</title>
+    <link href="http://mei6.site/2017/11/25/Reading-%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%A7%91%E5%AD%A6/"/>
+    <id>http://mei6.site/2017/11/25/Reading-学习的科学/</id>
+    <published>2017-11-25T14:24:38.000Z</published>
+    <updated>2017-11-25T14:49:08.516Z</updated>
+    
+    <content type="html"><![CDATA[<p>打卡，PR的第一本电子书。</p>
+<a id="more"></a>
+<p>练习PR的第一本电子书，之后可能看电子书会多过纸书吧。《学习的科学》讲的更多是关于企业的管理者打造一个学习型组织相关的内容，对于个体的学习者来说也有一定的作用，几点感受：</p>
+<ol>
+<li>自我管理的三元：元认知、元情绪、元交流，从自身的根本出发</li>
+<li>抱有成长的学习心态，提高自我效能</li>
+<li>学习型谈话，专注投入、有方法、有互动的沟通</li>
+</ol>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E3%80%8A%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%A7%91%E5%AD%A6%E3%80%8B.jpg" alt="《学习的科学》"></p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E5%AD%A6%E4%B9%A0%E7%9A%84%E7%A7%91%E5%AD%A6-MindMapping.jpg" alt="学习的科学-MindMapping"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;打卡，PR的第一本电子书。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="学习方法" scheme="http://mei6.site/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>PR 《专业主义》</title>
@@ -444,31 +478,6 @@ pad
   </entry>
   
   <entry>
-    <title>PR 主题阅读-快速阅读</title>
-    <link href="http://mei6.site/2017/11/12/Reading-%E4%B8%BB%E9%A2%98-%E5%BF%AB%E9%80%9F%E9%98%85%E8%AF%BB/"/>
-    <id>http://mei6.site/2017/11/12/Reading-主题-快速阅读/</id>
-    <published>2017-11-12T15:16:52.000Z</published>
-    <updated>2017-11-19T15:27:46.973Z</updated>
-    
-    <content type="html"><![CDATA[<p>打卡，主题阅读第一弹</p>
-<a id="more"></a>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E4%B8%BB%E9%A2%98-%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E9%98%85%E8%AF%BB-MindMapping.jpg" alt="主题-如何快速阅读-MindMapping"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;打卡，主题阅读第一弹&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PR《如何阅读一本书》</title>
     <link href="http://mei6.site/2017/11/12/Reading-%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/"/>
     <id>http://mei6.site/2017/11/12/Reading-如何阅读一本书/</id>
@@ -484,6 +493,31 @@ pad
     <summary type="html">
     
       &lt;p&gt;打卡&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PR 主题阅读-快速阅读</title>
+    <link href="http://mei6.site/2017/11/12/Reading-%E4%B8%BB%E9%A2%98-%E5%BF%AB%E9%80%9F%E9%98%85%E8%AF%BB/"/>
+    <id>http://mei6.site/2017/11/12/Reading-主题-快速阅读/</id>
+    <published>2017-11-12T15:16:52.000Z</published>
+    <updated>2017-11-19T15:27:46.973Z</updated>
+    
+    <content type="html"><![CDATA[<p>打卡，主题阅读第一弹</p>
+<a id="more"></a>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E4%B8%BB%E9%A2%98-%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E9%98%85%E8%AF%BB-MindMapping.jpg" alt="主题-如何快速阅读-MindMapping"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;打卡，主题阅读第一弹&lt;/p&gt;
     
     </summary>
     
@@ -614,32 +648,6 @@ pad
     <summary type="html">
     
       &lt;p&gt;打卡，看书的速度越来越慢，总想都看完，不能落下关键内容，万一遇上事儿能用到呢… 我的目的目的目的…&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PR《视觉思维》</title>
-    <link href="http://mei6.site/2017/11/01/Reading-%E8%A7%86%E8%A7%89%E6%80%9D%E7%BB%B4/"/>
-    <id>http://mei6.site/2017/11/01/Reading-视觉思维/</id>
-    <published>2017-11-01T15:22:52.000Z</published>
-    <updated>2017-11-19T14:49:32.146Z</updated>
-    
-    <content type="html"><![CDATA[<p>打卡，补昨天的，还在输液… 延迟了一天 ​​​​</p>
-<a id="more"></a>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E8%A7%86%E8%A7%89%E6%80%9D%E7%BB%B4.jpg" alt="《视觉思维》"></p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E8%A7%86%E8%A7%89%E6%80%9D%E7%BB%B4-MindMapping.jpg" alt="视觉思维-MindMapping"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;打卡，补昨天的，还在输液… 延迟了一天 ​​​​&lt;/p&gt;
     
     </summary>
     
