@@ -61,29 +61,19 @@
 <h6 id="pr"><a class="header-anchor" href="#pr"> </a>PR</h6>
 <p>Notability</p>
 <p>原因：</p>
-<blockquote>
-<p>手写效果出众，可以iCloud同步</p>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">手写效果出众，可以iCloud同步</span><br></pre></td></tr></table></figure>
 <h6 id="手账"><a class="header-anchor" href="#手账"> </a>手账</h6>
 <p>使用软件Mac/IOS 的日历工具</p>
 <ol>
 <li>Mac上用Fatastical 2</li>
 <li>IOS上用Calendars 5</li>
 </ol>
-<blockquote>
-<p>基于苹果的日历应用，使用iCloud同步，手机、pad、Mac全平台，而且同步的速度很快</p>
-</blockquote>
+<figure class="highlight fortran"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">基于苹果的日历应用，使用iCloud同步，手机、<span class="keyword">pad</span>、Mac全平台，而且同步的速度很快</span><br></pre></td></tr></table></figure>
 <p>Day One 订阅了付费的高级账户，但还是放弃了，周、月度的视图功能弱一些，而且它是以图片为主的，我使用的过程中文本、清单还是占了大部分。</p>
 <h6 id="笔记本"><a class="header-anchor" href="#笔记本"> </a>笔记本</h6>
 <p>EverNote，翻翻自己的EverNote，有用没用的笔记居然上千了，需要好好的整理的一下</p>
 <p>原因：</p>
-<blockquote>
-<p>全平台同步，不过免费账户只支持两台设备，如果三台以上设备，需要付费
-还有就是积累的太多，不好迁移
-手机随机记录
-使用浏览器插件保存网页非常方便
-手写插件鸡肋，效果不好</p>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">全平台同步，不过免费账户只支持两台设备，如果三台以上设备，需要付费</span><br><span class="line">还有就是积累的太多，不好迁移</span><br><span class="line">手机随机记录</span><br><span class="line">使用浏览器插件保存网页非常方便</span><br><span class="line">手写插件鸡肋，效果不好</span><br></pre></td></tr></table></figure>
 <p>有道云笔记之类的也尝试过，都比EverNote稍微逊色一些。</p>
 <h6 id="代码"><a class="header-anchor" href="#代码"> </a>代码</h6>
 <p>Dash</p>
