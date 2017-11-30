@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mei6.site/"/>
-  <updated>2017-11-30T14:40:05.348Z</updated>
+  <updated>2017-11-30T16:17:07.465Z</updated>
   <id>http://mei6.site/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我为什么使用独立博客，不用社交媒体？</title>
+    <link href="http://mei6.site/2017/12/01/2017-12-01/"/>
+    <id>http://mei6.site/2017/12/01/2017-12-01/</id>
+    <published>2017-11-30T16:15:48.000Z</published>
+    <updated>2017-11-30T16:17:07.465Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在写的没有什么内容，质量也不高，是打基础也属于用Blog自嗨的阶段，到下一个阶段，有高质量内容输出，打造个人品牌，产生自己影响力的时候，也许会使用社交媒体。</p>
+<p>用什么，取决于我要做什么，上层来决定下层。这个阶段的主要目的是记录、训练，所以选择Blog。</p>
+<p>还有一点是搞技术人的自嗨，能找个教程捣鼓出自己的Blog，来体现于别人不同。Hexo更新的内容缓慢，也在一方面体现了现在使用人群的小众。那些分享插件也基本停止维护了，实在不能算是用来分享内容的好选择。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;现在写的没有什么内容，质量也不高，是打基础也属于用Blog自嗨的阶段，到下一个阶段，有高质量内容输出，打造个人品牌，产生自己影响力的时候，也许会使用社交媒体。&lt;/p&gt;
+&lt;p&gt;用什么，取决于我要做什么，上层来决定下层。这个阶段的主要目的是记录、训练，所以选择Blog。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="瞎咧咧" scheme="http://mei6.site/categories/%E7%9E%8E%E5%92%A7%E5%92%A7/"/>
+    
+    
+      <category term="反思" scheme="http://mei6.site/tags/%E5%8F%8D%E6%80%9D/"/>
+    
+  </entry>
   
   <entry>
     <title>PR 《细节》</title>
@@ -745,34 +771,6 @@
     <summary type="html">
     
       &lt;p&gt;打卡，主题阅读第一弹&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-      <category term="读书方法" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6%E6%96%B9%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PR《如何阅读一本书》</title>
-    <link href="http://mei6.site/2017/11/12/Reading-%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/"/>
-    <id>http://mei6.site/2017/11/12/Reading-如何阅读一本书/</id>
-    <published>2017-11-12T15:16:52.000Z</published>
-    <updated>2017-11-29T14:59:19.819Z</updated>
-    
-    <content type="html"><![CDATA[<p>打卡</p>
-<a id="more"></a>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E3%80%8A%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6%E3%80%8B.jpg" alt="《如何阅读一本书》"></p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6-MindMapping.jpeg" alt="如何阅读一本书-MindMapping"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;打卡&lt;/p&gt;
     
     </summary>
     
