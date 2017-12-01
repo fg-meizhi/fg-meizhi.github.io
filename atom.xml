@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mei6.site/"/>
-  <updated>2017-11-30T16:17:07.465Z</updated>
+  <updated>2017-11-30T16:18:36.038Z</updated>
   <id>http://mei6.site/</id>
   
   <author>
@@ -20,11 +20,13 @@
     <link href="http://mei6.site/2017/12/01/2017-12-01/"/>
     <id>http://mei6.site/2017/12/01/2017-12-01/</id>
     <published>2017-11-30T16:15:48.000Z</published>
-    <updated>2017-11-30T16:17:07.465Z</updated>
+    <updated>2017-11-30T16:18:36.038Z</updated>
     
     <content type="html"><![CDATA[<p>现在写的没有什么内容，质量也不高，是打基础也属于用Blog自嗨的阶段，到下一个阶段，有高质量内容输出，打造个人品牌，产生自己影响力的时候，也许会使用社交媒体。</p>
 <p>用什么，取决于我要做什么，上层来决定下层。这个阶段的主要目的是记录、训练，所以选择Blog。</p>
-<p>还有一点是搞技术人的自嗨，能找个教程捣鼓出自己的Blog，来体现于别人不同。Hexo更新的内容缓慢，也在一方面体现了现在使用人群的小众。那些分享插件也基本停止维护了，实在不能算是用来分享内容的好选择。</p>
+<hr>
+<p>还有一点是搞技术人的自嗨，能找个教程捣鼓出自己的Blog，来体现于别人不同。</p>
+<p>Hexo更新的内容缓慢，也在一方面体现了现在使用人群的小众。那些分享插件也基本停止维护了，实在不能算是用来分享内容的好选择。</p>
 ]]></content>
     
     <summary type="html">
@@ -42,11 +44,11 @@
   </entry>
   
   <entry>
-    <title>PR 《细节》</title>
+    <title>PR 《细节》 - 24/300</title>
     <link href="http://mei6.site/2017/11/30/Reading-%E7%BB%86%E8%8A%82/"/>
     <id>http://mei6.site/2017/11/30/Reading-细节/</id>
     <published>2017-11-30T14:26:48.000Z</published>
-    <updated>2017-11-30T14:40:05.348Z</updated>
+    <updated>2017-11-30T16:26:29.604Z</updated>
     
     <content type="html"><![CDATA[<p>打卡，11月正式结束，这个月一共PR了24本书+三个主题阅读，鼓励自己一下。</p>
 <a id="more"></a>
@@ -64,6 +66,40 @@
     <summary type="html">
     
       &lt;p&gt;打卡，11月正式结束，这个月一共PR了24本书+三个主题阅读，鼓励自己一下。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="个人成长" scheme="http://mei6.site/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PR 《领导力21法则》 - 25/300</title>
+    <link href="http://mei6.site/2017/11/30/Reading-%E9%A2%86%E5%AF%BC%E5%8A%9B21%E6%B3%95%E5%88%99/"/>
+    <id>http://mei6.site/2017/11/30/Reading-领导力21法则/</id>
+    <published>2017-11-30T14:08:45.000Z</published>
+    <updated>2017-12-01T14:11:27.075Z</updated>
+    
+    <content type="html"><![CDATA[<p>打卡，值得一读的好书。</p>
+<a id="more"></a>
+<p>如何培养自己的领导力</p>
+<p>第一，先认识到自己的领导力，认识到自己现在处于什么水平，自己的顶在哪里，不需要刻意地追求成功，如果能够提高自己的效力，自然就会成功。</p>
+<p>第二，要持续的成长自己，持续学习，积累自己的能量，带领追随者。</p>
+<p>第三，就是要增加价值，要增加自己的价值，还要增加他人的价值。只有自己不断成长，才能把自己的经验分享给他人，服务他人，帮助他人增加价值。</p>
+<p>第四，想要取得成功，就一定要自己对事情负责任，团队中要有人才，要有统一的目标。对个人来讲也是一样，把自己培养成人才。</p>
+<p>第五，就要挑战不可能，战胜负能量，从小事起步，激励自己。产生效力倍增，就要提高自己，发展团队，培养领导者。</p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E3%80%8A%E9%A2%86%E5%AF%BC%E5%8A%9B21%E6%B3%95%E5%88%99%E3%80%8B.jpg" alt="《领导力21法则》"></p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E9%A2%86%E5%AF%BC%E5%8A%9B21%E6%B3%95%E5%88%99-MindMapping.jpg" alt="领导力21法则-MindMapping"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;打卡，值得一读的好书。&lt;/p&gt;
     
     </summary>
     
@@ -753,33 +789,6 @@
     
     
       <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PR 主题阅读-快速阅读</title>
-    <link href="http://mei6.site/2017/11/12/Reading-%E4%B8%BB%E9%A2%98-%E5%BF%AB%E9%80%9F%E9%98%85%E8%AF%BB/"/>
-    <id>http://mei6.site/2017/11/12/Reading-主题-快速阅读/</id>
-    <published>2017-11-12T15:16:52.000Z</published>
-    <updated>2017-11-29T14:59:41.720Z</updated>
-    
-    <content type="html"><![CDATA[<p>打卡，主题阅读第一弹</p>
-<a id="more"></a>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E4%B8%BB%E9%A2%98-%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E9%98%85%E8%AF%BB-MindMapping.jpg" alt="主题-如何快速阅读-MindMapping"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;打卡，主题阅读第一弹&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-      <category term="读书方法" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
