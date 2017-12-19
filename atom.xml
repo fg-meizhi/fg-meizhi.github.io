@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mei6.site/"/>
-  <updated>2017-12-18T14:11:09.779Z</updated>
+  <updated>2017-12-19T13:42:27.270Z</updated>
   <id>http://mei6.site/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PR 《你的团队需要一个会讲故事的人》 - 32/300</title>
+    <link href="http://mei6.site/2017/12/19/Reading-%E4%BD%A0%E7%9A%84%E5%9B%A2%E9%98%9F%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E4%BC%9A%E8%AE%B2%E6%95%85%E4%BA%8B%E7%9A%84%E4%BA%BA/"/>
+    <id>http://mei6.site/2017/12/19/Reading-你的团队需要一个会讲故事的人/</id>
+    <published>2017-12-19T13:36:45.000Z</published>
+    <updated>2017-12-19T13:42:27.270Z</updated>
+    
+    <content type="html"><![CDATA[<p>打卡。特别希望自己是个会讲故事的人，能吸引别人的注意力，能让人理解我要表达的东西。“感官冲击”是很吸引我的一点，如果能做到给听的人带来视觉、嗅觉、味觉、触觉等感官的体验，那一定和普通的故事不一样。</p>
+<a id="more"></a>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E3%80%8A%E4%BD%A0%E7%9A%84%E5%9B%A2%E9%98%9F%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E4%BC%9A%E8%AE%B2%E6%95%85%E4%BA%8B%E7%9A%84%E4%BA%BA%E3%80%8B.jpg" alt="《你的团队需要一个会讲故事的人》"></p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E4%BD%A0%E7%9A%84%E5%9B%A2%E9%98%9F%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E4%BC%9A%E8%AE%B2%E6%95%85%E4%BA%8B%E7%9A%84%E4%BA%BA-MindMapping.jpg" alt="你的团队需要一个会讲故事的人-MindMapping"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;打卡。特别希望自己是个会讲故事的人，能吸引别人的注意力，能让人理解我要表达的东西。“感官冲击”是很吸引我的一点，如果能做到给听的人带来视觉、嗅觉、味觉、触觉等感官的体验，那一定和普通的故事不一样。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="讲故事" scheme="http://mei6.site/tags/%E8%AE%B2%E6%95%85%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>PR 《数据之美》 - 31/300</title>
@@ -54,35 +82,6 @@
   </entry>
   
   <entry>
-    <title>PR 《靠谱》 - 30/300</title>
-    <link href="http://mei6.site/2017/12/07/Reading-%E9%9D%A0%E8%B0%B1/"/>
-    <id>http://mei6.site/2017/12/07/Reading-靠谱/</id>
-    <published>2017-12-07T14:58:33.000Z</published>
-    <updated>2017-12-07T15:01:02.594Z</updated>
-    
-    <content type="html"><![CDATA[<p>打卡。</p>
-<a id="more"></a>
-<p>看到这本电子书，没忍住，又PR了一次（说好个人成长最后一本的），不过里面大部分内容都知道了，作者换了个角度讲出来，快速激活，快速导图。</p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E3%80%8A%E9%9D%A0%E8%B0%B1%E3%80%8B.jpg" alt="《靠谱》"></p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E9%9D%A0%E8%B0%B1-MindMapping.jpg" alt="靠谱-MindMapping"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;打卡。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-      <category term="个人成长" scheme="http://mei6.site/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PR 主题阅读 - 学习方法</title>
     <link href="http://mei6.site/2017/12/07/Reading-%E4%B8%BB%E9%A2%98-%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     <id>http://mei6.site/2017/12/07/Reading-主题-学习方法/</id>
@@ -109,6 +108,35 @@
       <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
     
       <category term="学习方法" scheme="http://mei6.site/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PR 《靠谱》 - 30/300</title>
+    <link href="http://mei6.site/2017/12/07/Reading-%E9%9D%A0%E8%B0%B1/"/>
+    <id>http://mei6.site/2017/12/07/Reading-靠谱/</id>
+    <published>2017-12-07T14:58:33.000Z</published>
+    <updated>2017-12-07T15:01:02.594Z</updated>
+    
+    <content type="html"><![CDATA[<p>打卡。</p>
+<a id="more"></a>
+<p>看到这本电子书，没忍住，又PR了一次（说好个人成长最后一本的），不过里面大部分内容都知道了，作者换了个角度讲出来，快速激活，快速导图。</p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E3%80%8A%E9%9D%A0%E8%B0%B1%E3%80%8B.jpg" alt="《靠谱》"></p>
+<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E9%9D%A0%E8%B0%B1-MindMapping.jpg" alt="靠谱-MindMapping"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;打卡。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="个人成长" scheme="http://mei6.site/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/"/>
     
   </entry>
   
@@ -735,37 +763,6 @@
     <summary type="html">
     
       &lt;p&gt;打卡，划小圈，逆境&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="读书" scheme="http://mei6.site/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-      <category term="读书" scheme="http://mei6.site/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-      <category term="学习方法" scheme="http://mei6.site/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PR 《好好学习》</title>
-    <link href="http://mei6.site/2017/11/20/Reading-%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://mei6.site/2017/11/20/Reading-好好学习/</id>
-    <published>2017-11-20T15:24:00.000Z</published>
-    <updated>2017-11-22T14:10:35.386Z</updated>
-    
-    <content type="html"><![CDATA[<p>打卡，非常好的一本书，阅读的时间点刚好契合我现阶段的目标 - 打造自己的知识体系。</p>
-<a id="more"></a>
-<p>这是第一遍读这本书，最希望做的是能通过作者提到的提升学习能力的具体方法，先去模仿作者已有的做法，提升自己的能力。当我的能力达有一定提升后，再去运用作者提到的更深入的理念。</p>
-<p>结合前面几本书中学习到的手账、笔记技巧，先去做刻意训练、记录、反省和定期回顾，养成习惯。</p>
-<p>下一次阅读，可能会有更深、不同角度的理解。</p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E3%80%8A%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0%E3%80%8B.jpg" alt="《好好学习》"></p>
-<p><img src="http://ogjeb66bz.bkt.clouddn.com/%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0-MindMapping.jpeg" alt="好好学习-MindMapping"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;打卡，非常好的一本书，阅读的时间点刚好契合我现阶段的目标 - 打造自己的知识体系。&lt;/p&gt;
     
     </summary>
     
